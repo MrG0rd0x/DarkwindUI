@@ -13,6 +13,7 @@ jobs:
         run: zip -r -q DarkwindUI.mpackage src
 
       - name: Publish package
-        uses: actions/publish-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
+          name: DarkwindUI.mpackage
           path: DarkwindUI.mpackage
