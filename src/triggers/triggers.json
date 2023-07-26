@@ -1,0 +1,11 @@
+[
+  {
+    "name": "HPTest",
+    "patterns": [
+      {
+        "pattern": "^\\[HP:\\s+(\\d+)\\((\\d+)\\)\\s+SP:\\s+(\\d+)\\((\\d+)\\)\\]",
+        "type": "regex"
+      }
+    ]
+  }
+]
