@@ -2,6 +2,6 @@
   "package": "DarkwindUI",
   "title": "Simple Mudlet UI for Darkwind",
   "description": "Basic UI. Things will exist.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Kas <https://github.com/mrG0rd0x>"
 }

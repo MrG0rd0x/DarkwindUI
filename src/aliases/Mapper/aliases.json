@@ -1,0 +1,34 @@
+[
+  {
+    "name": "init",
+    "regex": "^map init$"
+  },
+  {
+    "name": "new_area",
+    "regex": "^map new area \"?([^\"]+)\"?$"
+  },
+  {
+    "name": "add_room",
+    "regex": "^map add room$"
+  },
+  {
+    "name": "add_exit",
+    "regex": "^map add exit \"?([^\"]+)\"? (\\S+)$"
+  },
+  {
+    "name": "add_portal",
+    "regex": "^map add portal \"?([^\"]+)\"? (\\S+) (\\S+)$"
+  },
+  {
+    "name": "move_room",
+    "regex": "^map move room (\\S+)$"
+  },
+  {
+    "name": "move_room_distance",
+    "regex": "^map move room (\\S+) (\\S+)$"
+  },
+  {
+    "name": "help",
+    "regex": "^map help$"
+  }
+]
